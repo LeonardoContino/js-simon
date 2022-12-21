@@ -9,12 +9,9 @@ const seconds = document.getElementById("seconds");
 
 const xmasTime = new Date("December 25, 2022").getTime();
 
-console.log(xmasTime);
-
 const coundown = setInterval(() => {
   const now = new Date().getTime();
   const distance = xmasTime - now;
-  const number = 0;
 
   days.innerText = Math.floor(distance / (1000 * 60 * 60 * 24));
 
