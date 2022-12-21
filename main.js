@@ -1,9 +1,9 @@
 // console.log("ok");
 
-let days = document.getElementById("days");
-let hours = document.getElementById("hours");
-let minutes = document.getElementById("minutes");
-let seconds = document.getElementById("seconds");
+const days = document.getElementById("days");
+const hours = document.getElementById("hours");
+const minutes = document.getElementById("minutes");
+const seconds = document.getElementById("seconds");
 
 //prendo l'anno corrente e la data del natale
 
